@@ -7,17 +7,15 @@
   <body>	
   </body>
 </html>
-<form id="zzz">
 <h1>输入</h1>
-<input type="text" placeholder="数1" id="a" required/>
-<input type="text" placeholder="数2" id="b" required/>
+<input type="text" placeholder="数1" id="a"/>
+<input type="text" placeholder="数2" id="b"/>
 <br>
 <h1>操作</h1>
 <button onclick="aa = (Number(a.value * 100) + Number(b.value *100)) / 100;document.getElementById('sc').innerHTML = aa;">加</button>
 <button onclick="ab = (Number(a.value * 100) - Number(b.value * 100)) / 100;document.getElementById('sc').innerHTML = ab;">减</button>
 <button onclick="ac = Number(a.value * 100) * Number(b.value * 100) / 10000;document.getElementById('sc').innerHTML = ac;">乘</button>
 <button onclick="ad = Number(a.value * 100) / Number(b.value * 100);document.getElementById('sc').innerHTML = ad;">除</button>
-</form>
 <button id="ae" onclick="aaaaa = sc.innerHTML;document.getElementById('a').value = aaaaa;">结果成数A</button>
 <button id="ag" onclick="aaaab = sc.innerHTML;document.getElementById('b').value = aaaab;">结果成数B</button>
 <h1>输出</h1>
